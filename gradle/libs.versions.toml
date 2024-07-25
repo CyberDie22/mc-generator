@@ -1,0 +1,20 @@
+[versions]
+ktor = "2.3.12"
+progressbar = "0.10.0"
+kotlinx-serialization = "1.7.1"
+kotlinx-datetime = "0.6.0"
+mappings-io = "0.6.1"
+tiny-remapper = "0.10.4"
+
+[libraries]
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
+
+progressbar = { module = "me.tongfei:progressbar", version.ref = "progressbar" }
+
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+
+mappings-io = { module = "net.fabricmc:mapping-io", version.ref = "mappings-io" }
+tiny-remapper = { module = "net.fabricmc:tiny-remapper", version.ref = "tiny-remapper" }
